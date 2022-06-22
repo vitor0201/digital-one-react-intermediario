@@ -25,3 +25,11 @@ Veja a documentação, na seção [running tests](https://facebook.github.io/cre
 Empacota o projeto em um bundle de produção na pasta `build`.<br>
 Veja mais na seção [deployment](https://facebook.github.io/create-react-app/docs/deployment) da documentacao para saber mais como efetuar um deploy correto de sua aplicação.
 
+
+```ruby
+mining_types = [
+  { description: 'Proof of Work', acronym: 'PoW' },
+  { description: 'Proof of Stake', acronym: 'PoS' },
+  { description: 'Proof of Capacity', acronym: 'PoC' }
+]
+```
