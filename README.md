@@ -27,9 +27,8 @@ Veja mais na seção [deployment](https://facebook.github.io/create-react-app/do
 
 
 ```ruby
-mining_types = [
-  { description: 'Proof of Work', acronym: 'PoW' },
-  { description: 'Proof of Stake', acronym: 'PoS' },
-  { description: 'Proof of Capacity', acronym: 'PoC' }
-]
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+coloca markdown.to_html
 ```
